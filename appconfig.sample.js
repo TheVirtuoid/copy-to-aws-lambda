@@ -28,24 +28,18 @@ let AWSParams = {
 		// that is retrieved from your credentials
 		cloud: {
 			region: 'AWS-region-1',
-			accessKeyId: '',
-			secretAccessKey: ''
 		},
 		// a devserver implementation
 		// accessKeyId and secretAccessKey doesn't matter
 		devserver: {
 			region: "local",
 			endpoint: "http://your-IP-address:port",
-			accessKeyId: 'Nana-Nana-Nana-Nana-Nana-Nana-Nana-Nana',
-			secretAccessKey: 'Batman!'
 		},
 		// a local computer implementation
 		// accessKeyId and secretAccessKey doesn't matter
 		local: {
 			region: "local",
 			endpoint: "localhost:port",
-			accessKeyId: 'Nana-Nana-Nana-Nana-Nana-Nana-Nana-Nana',
-			secretAccessKey: 'Batman!'
 		}
 	}
 };

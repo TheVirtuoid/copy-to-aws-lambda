@@ -35,6 +35,9 @@ module.exports = function processArguments(state) {
 				cmd = "";
 			}
 		}
+		if (cmd !== "") {
+			state[cmd] = true;
+		}
 		resolve(state);
 	});
 };
